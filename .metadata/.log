@@ -397,3 +397,75 @@ Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to
 
 !ENTRY org.eclipse.ui 2 2 2022-03-22 09:47:24.457
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-22 13:51:07.814
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-22 13:51:07.819
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@3c5a6bd[org.springframework.tooling.boot.ls:1.28.0.202109130547(id=562)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-22 13:51:07.830
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-22 13:51:07.924
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-22 13:51:11.890
+!MESSAGE Boot LS startup time from start to initialized: 4042ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-22 13:51:12.035
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.JgFeFMpHisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-22 13:51:12.040
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-22 13:51:12.045
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-22 13:51:12.047
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-22 13:51:12.049
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-22 13:51:12.051
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.JgFeFMpH => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-22 13:51:12.067
+!MESSAGE classpath=90 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-22 13:51:12.077
+!MESSAGE buffering callback sts4.classpath.JgFeFMpH backend false 90
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-22 13:51:12.079
+!MESSAGE executing callback sts4.classpath.JgFeFMpH 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-22 13:51:12.667
+!MESSAGE executing callback sts4.classpath.JgFeFMpH SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-03-22 14:23:17.631
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-22 14:25:04.759
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-22 14:25:04.773
+!MESSAGE classpath=90 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-22 14:25:04.785
+!MESSAGE buffering callback sts4.classpath.JgFeFMpH backend false 90
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-22 14:25:04.788
+!MESSAGE executing callback sts4.classpath.JgFeFMpH 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-22 14:25:04.870
+!MESSAGE executing callback sts4.classpath.JgFeFMpH SUCCESS [done]

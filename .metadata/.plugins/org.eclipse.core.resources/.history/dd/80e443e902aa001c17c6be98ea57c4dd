@@ -1,0 +1,5 @@
+package com.ajblima.client.resources;
+
+public class ClientResource {
+
+}
